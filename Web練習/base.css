@@ -1,0 +1,156 @@
+@charset "utf-8";
+*{
+    margin: 0; padding: 0;
+}
+
+body {
+    background-color: #cccccc;
+    background-image: url("images/bg_body.png");
+    font-size: 95%;
+    font-family: "ＭＳ ゴシック", sans-serif;
+    line-height: 1.5;
+    color: #333333;
+}
+
+div#pagebody{
+    width: 1000px; margin: 0 auto;
+    background-color: #ffffff;
+    background-image: url("images/bg_pagebody.png");
+    background-repeat: repeat-y;
+}
+img{border: 0;}
+p{
+    width: 660px;
+    margin: 10px;
+    text-indent: 1em;
+}
+hr{
+    clear: both;
+    width: 680;
+    margin: 10px 0px;
+    border: 1px dotted #cccccc;
+}
+
+div#header{
+    height: 80px;
+}
+div#header h1{
+    padding: 10px 0px 5px 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#header h1 a{
+    text-decoration: none;
+}
+
+ul#menu{
+    width: 960px; height: 50px;
+    margin: 0px 20px;
+}
+
+/*メインメニュー*/
+#menu li {
+    list-style-type: none;
+    display: inline;
+    float: left;
+}
+
+#menu li a{
+    background-color: darkslategray;
+    color: #ffffff;
+    display: block;
+    width: 240px; height: 35px;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    background-image:url(images/bg_menu1.png);
+    background-repeat:no-repeat;
+}
+
+#menu li a:hover{
+    background-color: rgb(31, 51, 51);
+    background-image: url(images/bg_menu2.png);
+}
+
+#img_index{
+    width: 960px; height: 360;
+    margin: 5px 20px;
+}
+
+h2{
+    width: 160px;
+    height: 43px;
+    padding: 17px 0px 0px 100px;
+    font-size: 16px;
+    background-image: url(images/bg_h2.png);
+    background-repeat: no-repeat;
+    background-color: #000033;
+    color: #ffffff;
+
+}
+
+div#submenu{
+    width: 260px;
+    margin: 10px 10px 10px 25px;
+    float: left;
+}
+
+div#submenu ul li {
+    list-style-type: none;
+}
+div#submenu ul li a{
+    display: block;
+    height: 45px;
+    padding: 15px 0px 0px 30px;
+    text-decoration: none;
+    border-bottom: 1px dotted gray;
+    background-image: url(images/bg_submenu.png);
+    background-repeat: no-repeat;
+    color: #333333;
+}
+
+div#submenu ul li:first-child a{
+    border-top: 1px dotted gray;
+}
+div#submenu ul li a:hover{
+    text-decoration: underline;
+}
+
+div#submenu ul li a::before{
+    content: url(images/icon_submenu.png);
+    margin: 0px 10px 0px 0px;
+    vertical-align: text-top;
+}
+
+div#info{
+    width: 660px;
+    float: left;
+    padding: 10px 20px 0px 0px;
+}
+
+h3{
+    font-size: 14px;
+    width: 660px;
+    padding: 10px 0px 10px 20px;
+    background-color: #003399;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.infoimg_index{
+    width: 200px; height: 150px;
+    margin: 0px 0px 20px 20px;
+    float: left;
+}
+
+hr{
+    clear: both;
+}
+
+div#footer{
+    clear: both;
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+    font-size: x-small;
+    text-align: center;
+}
